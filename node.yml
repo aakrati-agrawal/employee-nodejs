@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodejs-container
-          image: docker.io/aakratiagrawal/nodemysql:nodejsapp
+          image: docker.io/aakratiagrawal/nodemysql:nodejsapp2
           env:
           - name: MYSQL_HOST
             value: mysql-service
